@@ -56,7 +56,7 @@ $(function(){
       		e.preventDefault();
 
           $.ajax({
-        		url: '//formspree.io/sleeping.stars@gmail.com',
+        		url: '//formspree.io/countless.skies@gmail.com',
         		method: 'POST',
         		data: $(this).serialize(),
         		dataType: 'json',
