@@ -9,126 +9,150 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://countlessskies.com" />
 	<meta property="og:image" content="http://countlessskies.com/img/fbshare.png" />
-  <link href='https://fonts.googleapis.com/css?family=Marcellus+SC' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Marcellus|Marcellus+SC' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/c7cfff8f45.css">
+  <!-- <link rel="stylesheet" href="css/norm.css"> -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="wrap">
     <header>
       <div id="hero">
-        <div class="logo">
+        <div class="logo container">
           <!-- CS Logo -->
           <img src="img/logo.png" alt="Countless Skies Logo" class="image" />
           <!-- New Dawn -->
           <div class="new-dawn">
             <h2>debut album</h2>
+            <!-- <h1>new dawn</h1> -->
             <img src="img/newdawn.png" alt="New Dawn" class="image" />
             <!-- Out Now -->
             <h2>out now</h3>
           </div>
         </div>
         <nav>
-          <a class="nav-item" href="#about">
-            <p>listen</p>
-          </a>
-          <a class="nav-item" href="#skills">
-            <p>reviews</p>
-          </a>
-          <a class="nav-item" href="#portfolio">
-            <p>tour</p>
-          </a>
-          <a class="nav-item" href="#contact">
-            <p>contact</p>
-          </a>
+          <ul class="navbar">
+            <li class="nav-item">
+              <a href="#about">
+                <p>listen</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills">
+                <p>reviews</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio">
+                <p>tour</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact">
+                <p>contact</p>
+              </a>
+            </li>
+          </ul>
         </nav>
         <!-- Shop Now? -->
       </div>
     </header>
     <main>
       <section id="stream" class="stream">
-        <!-- Album Stream -->
-        <h1>stream now</h1>
-        <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPJ9ckT6a5eSN3k8ES2gdm1LCMzjdMDEh" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <!-- <div class="spotify">
-          <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A3PENvDGDSp44qT45VadPCp" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-        </div> -->
-        <h1>get your copy</h1>
-        <div class="buy">
-          <div class="shop">
-            <div class="icon">
-              <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
-            </div>
-            <p>CDs & Merch</p>
+        <div class="container">
+          <!-- Album Stream -->
+          <h1>stream now</h1>
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPJ9ckT6a5eSN3k8ES2gdm1LCMzjdMDEh" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="shop">
-            <div class="icon">
-              <i class="fa fa-download fa-5x" aria-hidden="true"></i>
+          <!-- <div class="spotify">
+            <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A3PENvDGDSp44qT45VadPCp" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          </div> -->
+          <h1>get your copy</h1>
+          <div class="buy flex-grid">
+            <div class="col">
+              <div class="shop">
+                <div class="icon">
+                  <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
+                </div>
+                <p>CDs & Merch</p>
+              </div>
+              <div class="shop">
+                <div class="icon">
+                  <i class="fa fa-download fa-5x" aria-hidden="true"></i>
+                </div>
+                <p>Digital</p>
+              </div>
+              <div class="shop">
+                <div class="icon">
+                  <img src="img/itunes.svg" class="itunes" />
+                </div>
+                <p>iTunes</p>
+              </div>
             </div>
-            <p>Digital</p>
-          </div>
-          <div class="shop">
-            <div class="icon">
-              <img src="img/itunes.svg" class="itunes" />
+            <div class="col">
+              <div class="shop">
+                <div class="icon">
+                  <i class="fa fa-play fa-5x" aria-hidden="true"></i>
+                </div>
+                <p>Google Play</p>
+              </div>
+              <div class="shop">
+                <div class="icon">
+                  <i class="fa fa-amazon fa-5x" aria-hidden="true"></i>
+                </div>
+                <p>Amazon MP3</p>
+              </div>
+              <div class="shop">
+                <div class="icon">
+                  <i class="fa fa-spotify fa-5x" aria-hidden="true"></i>
+                </div>
+                <p>Spotify</p>
+              </div>
             </div>
-            <p>iTunes</p>
-          </div>
-          <div class="shop">
-            <div class="icon">
-              <i class="fa fa-play fa-5x" aria-hidden="true"></i>
-            </div>
-            <p>Google Play</p>
-          </div>
-          <div class="shop">
-            <div class="icon">
-              <i class="fa fa-amazon fa-5x" aria-hidden="true"></i>
-            </div>
-            <p>Amazon MP3</p>
-          </div>
-          <div class="shop">
-            <div class="icon">
-              <i class="fa fa-spotify fa-5x" aria-hidden="true"></i>
-            </div>
-            <p>Spotify</p>
           </div>
         </div>
       </section>
       <section id="reviews" class="reviews">
-        <!-- Todo: Slider with magazine covers -->
-        <h2>New Dawn has been featured in Metal Hammer, Zero Tolerence, Powerplay, and other top metal magazines across the globe.</h2>
-        <!-- Album Reviews -->
-        <h3>Reviews</h3>
-        <p>"New Dawn is a solid debut and often compelling listen, oozing energy, emotion and a touch of class." - <strong>Angry Metal Guy</strong></p>
-  			<p>"Countless Skies fill the landscape of 'New Dawn' with some of the most majestic and enticing melodies of 2016 so far.“ - <strong>Dead Rhetoric</strong></p>
-  			<p>"New Dawn, at its very essence, is a stunning display of mesmerizing beauty and an appreciation of solitude" - <strong>Nine Circles</strong></p>
-  			<p>"From the beautifully realised coverart to the smoothly escalating power of opening track 'Aubade', Countless Skies present themselves as a band of stature, worth and class." - <strong>Zero Tolerance Magazine</strong></p>
-        <p>"This debut sees them plug a gaping black hole void in the UK's melodic death metal scene." - <strong>Powerplay Magazine</strong></p>
+        <div class="container">
+          <!-- Todo: Slider with magazine covers -->
+          <h2>New Dawn has been featured in Metal Hammer, Zero Tolerence, Powerplay, and other top metal magazines across the globe.</h2>
+          <!-- Album Reviews -->
+          <h3>Reviews</h3>
+          <p>"New Dawn is a solid debut and often compelling listen, oozing energy, emotion and a touch of class." - <strong>Angry Metal Guy</strong></p>
+    			<p>"Countless Skies fill the landscape of 'New Dawn' with some of the most majestic and enticing melodies of 2016 so far.“ - <strong>Dead Rhetoric</strong></p>
+    			<p>"New Dawn, at its very essence, is a stunning display of mesmerizing beauty and an appreciation of solitude" - <strong>Nine Circles</strong></p>
+    			<p>"From the beautifully realised coverart to the smoothly escalating power of opening track 'Aubade', Countless Skies present themselves as a band of stature, worth and class." - <strong>Zero Tolerance Magazine</strong></p>
+          <p>"This debut sees them plug a gaping black hole void in the UK's melodic death metal scene." - <strong>Powerplay Magazine</strong></p>
+        </div>
       </section>
       <section id="tour" class="tour">
-        <!-- Bandsintown Tourdates -->
-        <a href="http://www.bandsintown.com/Countless%20Skies" class="bit-widget-initializer" data-artist="Countless Skies">Countless Skies Tour Dates</a>
+        <div class="container">
+          <!-- Bandsintown Tourdates -->
+          <a href="http://www.bandsintown.com/Countless%20Skies" class="bit-widget-initializer" data-artist="Countless Skies">Countless Skies Tour Dates</a>
+        </div>
       </section>
       <section id="links" class="links">
         <!-- Links to buy/listen -->
         <!-- Social Links -->
       </section>
       <section id="contact" class="contact">
-        <!-- Contact form -->
-        <div class="col">
-          <div id="form-messages"></div>
-          <h1>get in touch</h1>
-          <form id="ajax-contact" action="https://formspree.io/band@countlessskies.com" method="POST">
-              <input type="text" name="name" id="name" class="input" placeholder="Name" required />
-              <input type="email" name="email" id="email" class="input" placeholder="Email" required />
-              <textarea name="message" id="message" rows="3" class="textarea" placeholder="Message" required></textarea>
-              <button type="submit" class="button is-primary">Send</button>
-          </form>
+        <div class="container">
+          <!-- Contact form -->
+          <div class="col">
+            <div id="form-messages"></div>
+            <h1>get in touch</h1>
+            <form id="ajax-contact" action="https://formspree.io/band@countlessskies.com" method="POST">
+                <input type="text" name="name" id="name" class="input" placeholder="Name" required />
+                <input type="email" name="email" id="email" class="input" placeholder="Email" required />
+                <textarea name="message" id="message" rows="3" class="textarea" placeholder="Message" required></textarea>
+                <button type="submit" class="button is-primary">Send</button>
+            </form>
+          </div>
+          <!-- Contact info -->
+          <p>contact &amp; booking - <a href="mailto:band@countlessskies.com">band@countlessskies.com</a></p>
+  			  <p>press - <a href="mailto:andrew@futurepr.net">andrew@futurepr.net</a></p>
         </div>
-        <!-- Contact info -->
-        <p>contact &amp; booking - <a href="mailto:band@countlessskies.com">band@countlessskies.com</a></p>
-			  <p>press - <a href="mailto:andrew@futurepr.net">andrew@futurepr.net</a></p>
       </section>
     </main>
     <footer>
