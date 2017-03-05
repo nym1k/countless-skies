@@ -91,6 +91,7 @@ footer {
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .wrap {
@@ -113,12 +114,20 @@ a {
   flex-direction: column;
   justify-content: space-around;;
   align-items: center;
+  padding-top: 20%;
 }
 
 nav {
   width: 100%;
-  background: rgba(0,0,0,0.3);
-  margin: 5% auto;
+  background: rgba(127,78,133,0.5);
+  margin: 0 auto;
+  position: fixed;
+  border-bottom: 1px solid #ccc;
+}
+
+.fixed {
+  top: 0;
+  margin-top: 0;
 }
 
 .image {
@@ -217,13 +226,13 @@ iframe {
 .shop {
   display: flex;
   flex-direction: column;
-  width: 130px;
+  width: 100px;
   margin: 0;
 }
 
 .icon {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   background: #7F4E85;
   display: flex;
   justify-content: center;
@@ -315,7 +324,7 @@ button[type="submit"] {
   }
 
   .buy .col {
-    max-width: 640px;
+    max-width: 500px;
   }
 
   .buy .col:first-of-type {
@@ -324,9 +333,5 @@ button[type="submit"] {
 }
 
 @media screen and (min-width: 992px) {
-
-  nav {
-    margin: 2% auto;
-  }
 
 }
