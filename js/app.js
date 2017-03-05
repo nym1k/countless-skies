@@ -6,6 +6,8 @@ $(function(){
       },
       UI: function(){
 
+        var menuHeight = $('nav').height();
+
         // Full Screen Hero
         checkSize();
         $(window).resize(checkSize);
@@ -20,7 +22,6 @@ $(function(){
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
             if (target.length) {
-              var menuHeight = $('nav').height();
               $('html, body').animate({
                 scrollTop: target.offset().top - menuHeight
               }, 1000);
@@ -33,12 +34,12 @@ $(function(){
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
           var $hero = $('#hero');
-          var heroBottom = $hero.position().top + $hero.outerHeight(true);
+          var heroBottom = $hero.position().top + $hero.outerHeight(true) - menuHeight - 1;
 
           if (scroll >= heroBottom) {
-            $("nav").addClass("fixed");
+            $("nav").addClass("opaque");
           } else {
-            $("nav").removeClass("fixed");
+            $("nav").removeClass("opaque");
           }
         });
 
