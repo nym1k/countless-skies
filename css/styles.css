@@ -118,7 +118,7 @@ nav {
 }
 
 .opaque {
-  background: rgba(127,78,133,0.5);
+  background: rgba(127,78,133,0.7);
 }
 
 .navbar {
@@ -419,7 +419,7 @@ button[type="submit"] {
   .navbar {
     padding: 0;
   }
-  
+
   .reviews .col {
     flex-wrap: nowrap;
     justify-content: space-between;
