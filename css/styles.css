@@ -9,6 +9,11 @@ h1,h2,h3,h4 {
   font-weight: 400;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .image {
   max-width: 100%;
   height: auto;
@@ -85,26 +90,12 @@ body {
   padding: 0;
 }
 
-.input,
-.textarea,
-button[type="submit"] {
-  font-size: inherit;
-  font-family: 'Marcellus SC', serif;
-}
-
 .listen,
 .reviews,
 .tour,
 .contact,
 footer {
   padding: 5%;
-}
-
-/* Elements */
-
-a {
-  color: #fff;
-  text-decoration: none;
 }
 
 /* Header */
@@ -353,7 +344,6 @@ blockquote:before {
   margin-top: 2%;
 }
 
-
 /* Form */
 
 .form {
@@ -372,6 +362,8 @@ button[type="submit"] {
   width: 100%;
   padding: 2%;
   border-radius: 3px;
+  font-size: inherit;
+  font-family: 'Marcellus SC', serif;
 }
 
 input,
