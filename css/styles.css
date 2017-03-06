@@ -163,24 +163,29 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+#hero .container {
+  flex: 0 0 auto;
 }
 
 .logo {
-  margin: auto;
+  flex: 1 1 auto;
+}
+
+.new-dawn > * {
+  flex: 0 0 auto;
 }
 
 .new-dawn {
   max-width: 80%;
   margin: 0 auto;
   color: #BDBDBD;
-  min-height: 180px;
+  flex: 0 0 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.new-dawn h1 {
-  font-size: 3.5rem;
 }
 
 .new-dawn h2 {
@@ -192,6 +197,8 @@ nav {
   justify-content: space-around;
   width: 70%;
   max-width: 500px;
+  flex: 0 0 auto;
+  margin: 0 auto;
 }
 
 .social-icon {
