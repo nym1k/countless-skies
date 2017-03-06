@@ -109,6 +109,10 @@ a {
 
 /* Header */
 
+header {
+  background: #BDBDBD;
+}
+
 nav {
   background: none;
   width: 100%;
@@ -197,13 +201,12 @@ nav {
   justify-content: space-around;
   width: 70%;
   max-width: 500px;
-  flex: 0 0 auto;
   margin: 0 auto;
 }
 
 .social-icon {
-  color: #BDBDBD;
-  padding: 10%;
+  color: #333;
+  padding: 5% 10%;
   cursor: pointer;
 }
 
